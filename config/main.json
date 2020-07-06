@@ -16,7 +16,7 @@
     }
   },
   "cli": {
-    "excludedPaths": ["^test", "^[.]git$", "node_modules\/"],
+    "excludedPaths": ["^test", "^[.]git$", "^node_modules"],
     "messages": {
       "invalidArguments": "Invalid number of arguments.",
       "invalidDirectory": "\"%s\" is not a valid directory."
