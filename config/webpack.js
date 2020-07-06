@@ -18,6 +18,10 @@ const config = {
   module: {
     rules: [
       {
+        test: /src\/cli\.js$/,
+        loaders: ['shebang-loader', 'babel-loader']
+      },
+      {
         test: /\.hbs$/,
         loader: `handlebars-loader?helperDirs[]=${__dirname}/../src/render/templates/helpers`
       },

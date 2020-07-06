@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const format = require('util').format;
 const filters = require('./filters');
